@@ -1,3 +1,6 @@
+import 'styled-components'
+// ______________________________________________________
+//
 export const theme = {
   colors: {
     red: '#f00',
@@ -14,5 +17,5 @@ type AppTheme = typeof theme
 // ______________________________________________________
 //
 declare module 'styled-components' {
-  export interface DefaultTheme extends AppTheme {}
+  interface DefaultTheme extends AppTheme {}
 }
