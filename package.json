@@ -1,0 +1,29 @@
+{
+  "name": "styled-components-theme-type-definition",
+  "version": "1.0.0",
+  "description": "styled-components-theme-type-definition",
+  "author": "Takepepe",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html watch",
+    "build": "parcel build src/index.html",
+    "prettier": "prettier \"src/**/*.{ts,tsx}\" --write"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^4.4.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
